@@ -1,0 +1,188 @@
+/*
+Template Name: Bootstrap Starter Kit - Header 3
+Description: Business Startup & Prototyping HTML Framework
+Author: Theme Spirit
+Author URI: http://www.creativemarket.com/theme_spirit
+
+Version: 1.0
+
+*/
+
+/*	HEADER 3
+/*----------------------------------------------------*/
+
+#header-thk {
+    width: 100%;
+    font-family: "Proxima";
+}
+
+#header-thk .brand {
+	position: relative;
+}
+
+#header-thk .brand-img {
+	position: absolute;
+	left: 15px;
+	top: 0;
+	max-width: 300px;
+}
+
+#header-thk nav {
+	background-color: #233447;
+	margin-top: -1px;
+}
+
+#header-thk nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+#header-thk nav ul li {
+	color: rgba(255, 255, 255, 0.6);
+	display: block;
+	border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+	transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	padding-left: 0;
+	position: relative;
+}
+
+#header-thk nav ul li:last-child {
+	border: none;
+}
+
+#header-thk nav ul li a {
+	color: rgba(255, 255, 255, 0.6);
+	display: block;
+	padding: 20px;
+	transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	padding-left: 0;
+	position: relative;
+}
+
+#header-thk nav ul li a:hover, #header-thk nav ul li a:focus {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 1);
+}
+
+#header-thk #nav-toggle {
+	position: absolute;
+	right: 15px;
+	top: 0;
+}
+
+#header-thk #nav-toggle {
+	cursor: pointer;
+	padding: 10px 35px 16px 0px;
+}
+
+#header-thk #nav-toggle span, #header-thk #nav-toggle span:before, #header-thk #nav-toggle span:after {
+	cursor: pointer;
+	border-radius: 1px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	-o-border-radius: 1px;
+	height: 5px;
+	width: 35px;
+	background: #353535;
+	position: absolute;
+	display: block;
+	content: '';
+}
+
+#header-thk #nav-toggle span:before { top: -10px; }
+#header-thk #nav-toggle span:after { bottom: -10px; }
+
+#header-thk #nav-toggle span, #header-thk #nav-toggle span:before, #header-thk #nav-toggle span:after {
+	transition: all 500ms ease-in-out;
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+}
+
+#header-thk #nav-toggle.active span { background-color: transparent; }
+
+#header-thk #nav-toggle.active span:before, #header-thk #nav-toggle.active span:after { top: 0; }
+
+#header-thk #nav-toggle.active span:before {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+}
+
+#header-thk #nav-toggle.active span:after {
+	transform: translateY(-10px) rotate(-45deg);
+	-webkit-transform: translateY(-10px) rotate(-45deg);
+	-ms-transform: translateY(-10px) rotate(-45deg);
+	top: 10px;
+}
+
+#header-thk .navicon {
+	position: relative;
+	height: 26px;
+}
+
+
+
+#header-thk .indicator {
+	position: absolute;
+	right: 0 !important;
+}
+
+#header-thk .pull { display: none; }
+
+
+#header-thk .hero {
+	background: url('../images/thankyou-hero.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 50px 0 50px 0;
+	height: auto;
+}
+
+#header-thk .black-overlay {
+  background: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0; }
+
+#header-thk .hero h1 {
+	margin-top: 100px;
+	font-weight: 600;
+	color: #FFFFFF;
+}
+
+#header-thk .hero .lead {
+	font-weight: 600;
+	color: #FFFFFF;
+}
+
+
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+  
+	
+  
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  
+	
+  
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  
+	
+	  
+}
